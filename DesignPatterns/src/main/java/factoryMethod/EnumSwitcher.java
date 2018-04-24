@@ -1,6 +1,4 @@
-package abstractFactory;
-
-import command.Switch;
+package factoryMethod;
 
 public enum EnumSwitcher {
     OSX("OSX", new OSXFactory()),

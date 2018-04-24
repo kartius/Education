@@ -1,4 +1,4 @@
-package abstractFactory;
+package factoryMethod;
 
 public class Runner {
 
