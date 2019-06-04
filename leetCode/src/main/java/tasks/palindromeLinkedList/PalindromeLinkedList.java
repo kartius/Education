@@ -21,8 +21,6 @@ Follow up:
 Could you do it in O(n) time and O(1) space?
      */
 
-    LinkedList<Integer> linkedList = new LinkedList();
-
     public static class ListNode {
         int val;
         public ListNode next;
@@ -32,36 +30,58 @@ Could you do it in O(n) time and O(1) space?
         }
     }
 
+    private boolean isPal = true;
     public boolean isPalindrome(ListNode head) {
-        boolean flag = false;
-        recursiveBuilder(head);
-        if (linkedList.isEmpty() || linkedList.size()==1){
-            return true;
+        helper(head,head);
+        return isPal;
+    }
+    private ListNode helper(ListNode head, ListNode curr) {
+        if(curr == null || !isPal) {
+            return head;
         }
-        while (!linkedList.isEmpty()) {
-            try {
-                if (linkedList.getFirst().equals(linkedList.getLast())) {
-                    linkedList.removeFirst();
-                    linkedList.removeLast();
-                    flag = true;
-                } else {
-                    flag = false;
-                    break;
-                }
-            } catch (NoSuchElementException e) {
-                flag = true;
-            }
+        head = helper(head, curr.next);
+        if(head.val != curr.val) {
+            isPal = false;
         }
-
-        return flag;
+        return head.next;
     }
 
-    private void recursiveBuilder(ListNode node) {
-        if (node != null) {
-            linkedList.add(node.val);
-            recursiveBuilder(node.next);
-        }
-    }
+    //My solution
+
+//    LinkedList<Integer> linkedList = new LinkedList();
+//
+
+//
+//    public boolean isPalindrome(ListNode head) {
+//        boolean flag = false;
+//        recursiveBuilder(head);
+//        if (linkedList.isEmpty() || linkedList.size() == 1) {
+//            return true;
+//        }
+//        while (!linkedList.isEmpty()) {
+//            try {
+//                if (linkedList.getFirst().equals(linkedList.getLast())) {
+//                    linkedList.removeFirst();
+//                    linkedList.removeLast();
+//                    flag = true;
+//                } else {
+//                    flag = false;
+//                    break;
+//                }
+//            } catch (NoSuchElementException e) {
+//                flag = true;
+//            }
+//        }
+//
+//        return flag;
+//    }
+//
+//    private void recursiveBuilder(ListNode node) {
+//        if (node != null) {
+//            linkedList.add(node.val);
+//            recursiveBuilder(node.next);
+//        }
+//    }
 
     public static void main(String[] args) {
         PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();

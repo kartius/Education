@@ -7,15 +7,17 @@ Without help
 - 234.Palindrome Linked List [easy]
 - 125.Valid Palindrome [easy]   
 - 961.N-Repeated Element in Size 2N Array [easy] 
+- 561.Array Partition I [easy]
 
 (good solution)
 
--
+- 905.Sort Array By Parity [easy] 
 
 With help
 
 - 1.Two Sum [easy] 
 - 9.Palindrome Number [easy]
+- 189.Rotate Array [easy]
 
 
 
