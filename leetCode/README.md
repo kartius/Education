@@ -8,6 +8,8 @@ Without help
 - 125.Valid Palindrome [easy]   
 - 961.N-Repeated Element in Size 2N Array [easy] 
 - 561.Array Partition I [easy]
+- 26.Remove Duplicates from Sorted Array [easy]
+- 217.Contains Duplicate [easy]
 
 (good solution)
 
@@ -18,6 +20,7 @@ With help
 - 1.Two Sum [easy] 
 - 9.Palindrome Number [easy]
 - 189.Rotate Array [easy]
+- 80.Remove Duplicates from Sorted Array II [medium]
 
 
 
