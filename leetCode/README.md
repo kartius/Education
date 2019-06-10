@@ -10,6 +10,7 @@ Without help
 - 561.Array Partition I [easy]
 - 26.Remove Duplicates from Sorted Array [easy]
 - 217.Contains Duplicate [easy]
+- 268.Missing Number [easy]
 
 (good solution)
 
@@ -21,6 +22,7 @@ With help
 - 9.Palindrome Number [easy]
 - 189.Rotate Array [easy]
 - 80.Remove Duplicates from Sorted Array II [medium]
+- 53.Maximum Subarray [easy]
 
 
 
