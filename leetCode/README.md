@@ -11,6 +11,8 @@ Without help
 - 26.Remove Duplicates from Sorted Array [easy]
 - 217.Contains Duplicate [easy]
 - 268.Missing Number [easy]
+- 169.Majority Element[easy]
+- 287.Find the Duplicate Number [medium]
 
 (good solution)
 
@@ -23,6 +25,7 @@ With help
 - 189.Rotate Array [easy]
 - 80.Remove Duplicates from Sorted Array II [medium]
 - 53.Maximum Subarray [easy]
+- 27.Remove Element [easy]
 
 
 
