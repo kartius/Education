@@ -1,8 +1,4 @@
-package tasks.twoSum2;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+package tasks.arrays.twoSum2;
 
 public class TwoSum2 {
 
