@@ -17,6 +17,7 @@ Without help
 (good solution)
 
 - 905.Sort Array By Parity [easy] 
+- 35.Search Insert Position [easy]
 
 With help
 
@@ -27,6 +28,7 @@ With help
 - 53.Maximum Subarray [easy]
 - 27.Remove Element [easy]
 - 39.Combination Sum [medium]
+- 40.Combination Sum II [medium]
 
 
 
