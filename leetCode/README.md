@@ -18,6 +18,7 @@ Without help
 
 - 905.Sort Array By Parity [easy] 
 - 35.Search Insert Position [easy]
+- 485.Max Consecutive Ones [easy]
 
 With help
 
